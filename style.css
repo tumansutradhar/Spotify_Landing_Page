@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+/* navbar start */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0 390px;
+}
+
+img {
+    width: 135px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+ul li {
+    font-size: 1.05rem;
+}
+
+ul li:hover {
+    color: #1DB954;
+}
+
+/* navbar end */
+
+
+
+/* hero section start */
+
+.hero {
+    background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    height: 600px;
+}
+
+.ho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 1400px;
+    margin: 0 auto;
+    padding: 107px 0;
+}
+
+.sc {
+    width: 293px;
+    height: 493px;
+}
+
+.gsf {
+    width: 190px;
+    height: 55px;
+    border-radius: 500px;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.hs {
+    font-weight: 900;
+    font-size: 64px;
+    color: white;
+    line-height: 1.15;
+    padding-bottom: 32px;
+}
+
+/* hero section end */
+
+
+
+/* why Spotify start */
+
+.wh {
+    height: 600px;
+}
+
+.sp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    /* padding: 90px 0; */
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+.ply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+}
+
+.a {
+    font-weight: 700;
+    font-size: 1.10rem;
+}
+
+/* why Spotify end */
+
+
+
+/* free start */
+
+.b {
+    background: linear-gradient(rgb(137 59 147) 15%, rgb(96, 11, 231));
+    height: 600px;
+}
+
+.no {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8rem;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    padding: 220px 0 0 0;
+}
+
+/* free end */
+
+
+
+/* Got questions? start */
+
+.pre {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.go {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 850;
+    padding-top: 65px;
+}
+
+/* Got questions? end */
+
+
+
+/* Ready? Let's play. start */
+
+.last {
+    display: flex;
+    justify-content: center;
+    background: url(https://www.scdn.co/i/free/lets-play.svg) center center / 100% no-repeat, linear-gradient(-155deg, rgb(108, 14, 224) 55%, rgb(240, 55, 166) 115%) rgb(108, 14, 224);
+    background-position: left -10px bottom -160px;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.rp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.re {
+    color: white;
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+/* Ready? Let's play. end */
+
+
+
+/* footer start */
+
+.foot {
+    height: 500px;
+    background-color: #000;
+    color: white;
+    padding-top: 100px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+    padding-top: 30px;
+
+}
+
+.new {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.new:hover {
+    color: #1DB954;
+}
+
+.nw {
+    font-weight: 600;
+    color: gray;
+}
+
+.soci {
+    display: flex;
+    gap: 15px;
+}
+
+.soci:hover {
+    color: #1DB954;
+}
+
+.fa-brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 54px;
+    background-color: #222326;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+/* footer end */
+
+/* lower portion start */
+
+.foott {
+    display: flex;
+    justify-content: center;
+    color: #919496;
+    width: 100%;
+    margin: 0 auto;
+    gap: 320px;
+    padding: 145px 0 0 0;
+}
+
+.foots {
+    display: flex;
+    justify-content: end;
+}
+
+.footo {
+    display: flex;
+}
+
+.abt li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 12px;
+}
+.abt:hover {
+    color: #1DB954;
+}
+.crc {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 700;
+    gap: 25px;
+}
+
+.cr{
+    cursor: pointer;
+}
+
+.cr:hover {
+    color: #1DB954;
+}
+
+/* lower portion end */
