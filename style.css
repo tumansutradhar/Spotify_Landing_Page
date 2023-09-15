@@ -43,8 +43,6 @@ ul li:hover {
 
 /* navbar end */
 
-
-
 /* hero section start */
 
 .hero {
@@ -86,8 +84,6 @@ ul li:hover {
 
 /* hero section end */
 
-
-
 /* why Spotify start */
 
 .wh {
@@ -100,7 +96,6 @@ ul li:hover {
     align-items: center;
     font-size: 2.5rem;
     font-weight: 900;
-    /* padding: 90px 0; */
 }
 
 .box {
@@ -128,8 +123,6 @@ ul li:hover {
 
 /* why Spotify end */
 
-
-
 /* free start */
 
 .b {
@@ -150,8 +143,6 @@ ul li:hover {
 
 /* free end */
 
-
-
 /* Got questions? start */
 
 .pre {
@@ -170,8 +161,6 @@ ul li:hover {
 }
 
 /* Got questions? end */
-
-
 
 /* Ready? Let's play. start */
 
@@ -200,8 +189,6 @@ ul li:hover {
 
 /* Ready? Let's play. end */
 
-
-
 /* footer start */
 
 .foot {
@@ -222,7 +209,6 @@ ul li:hover {
     justify-content: center;
     gap: 85px;
     padding-top: 30px;
-
 }
 
 .new {
@@ -293,6 +279,7 @@ ul li:hover {
 .abt:hover {
     color: #1DB954;
 }
+
 .crc {
     display: flex;
     flex-direction: column;
